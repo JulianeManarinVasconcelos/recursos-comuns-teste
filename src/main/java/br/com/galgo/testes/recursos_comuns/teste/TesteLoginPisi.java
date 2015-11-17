@@ -3,12 +3,14 @@ package br.com.galgo.testes.recursos_comuns.teste;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import br.com.galgo.testes.recursos_comuns.exception.ErroAplicacao;
 import br.com.galgo.testes.recursos_comuns.pageObject.TelaPrincipal;
 import br.com.galgo.testes.recursos_comuns.utils.TesteUtils;
 
+@Ignore
 public class TesteLoginPisi extends Teste {
 
 	@Before
