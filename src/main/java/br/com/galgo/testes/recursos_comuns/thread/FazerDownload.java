@@ -17,11 +17,12 @@ public class FazerDownload {
 	}
 
 	public boolean download() {
-		pathArquivo = ArquivoUtils.getPathConsulta(pathArquivo, ".xml");
-		ExecutarAutoIt executarAutoIt = new ExecutarAutoIt();
-		boolean retorno = executarAutoIt.executar(
-				ConstantesTestes.PATH_EXECUTAVEL_DOWNLOAD, pathArquivo, true);
-		pathArquivo = executarAutoIt.getPathArquivo();
-		return retorno;
+		return true;
+		// pathArquivo = ArquivoUtils.getPathConsulta(pathArquivo, ".xml");
+		// ExecutarAutoIt executarAutoIt = new ExecutarAutoIt();
+		// boolean retorno = executarAutoIt.executar(
+		// ConstantesTestes.PATH_EXECUTAVEL_DOWNLOAD, pathArquivo, true);
+		// pathArquivo = executarAutoIt.getPathArquivo();
+		// return retorno;
 	}
 }

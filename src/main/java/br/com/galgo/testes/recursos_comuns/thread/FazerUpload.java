@@ -1,7 +1,5 @@
 package br.com.galgo.testes.recursos_comuns.thread;
 
-import br.com.galgo.testes.recursos_comuns.utils.ConstantesTestes;
-
 public class FazerUpload {
 
 	public String PATH_ARQUIVO_UPLOAD;
@@ -15,8 +13,7 @@ public class FazerUpload {
 	}
 
 	public void upload(boolean alterarPath) {
-		ExecutarAutoIt executarAutoIt = new ExecutarAutoIt();
-		executarAutoIt.executar(ConstantesTestes.PATH_EXECUTAVEL_UPLOAD,
-				PATH_ARQUIVO_UPLOAD, false, alterarPath);
+		// executarAutoIt.executar(ConstantesTestes.PATH_EXECUTAVEL_UPLOAD,
+		// PATH_ARQUIVO_UPLOAD, false, alterarPath);
 	}
 }
