@@ -32,7 +32,7 @@ public class TesteLoginAthena extends Teste {
 
 	@Test
 	public void exemploTesteLoginInvalidoAluno() throws ErroAplicacao {
-		this.setNomeTeste("exemploTesteLoginValidoAluno.png");
+		this.setNomeTeste("exemploTesteLoginInvalidoAluno.png");
 		TelaPrincipal.abrirBrowser("http://localhost:8080/athena/");
 		TelaPrincipal tela = new TelaPrincipal();
 		tela.clicarItemPorXPath("/html/body/div[1]/div/nav/div/div[2]/ul/li[4]/a");
@@ -45,7 +45,7 @@ public class TesteLoginAthena extends Teste {
 	
 	@Test
 	public void exemploTesteLoginValidoProfessor() throws ErroAplicacao {
-		this.setNomeTeste("exemploTesteLoginValidoAluno.png");
+		this.setNomeTeste("exemploTesteLoginValidoProfessor.png");
 		TelaPrincipal.abrirBrowser("http://localhost:8080/athena/");
 		TelaPrincipal tela = new TelaPrincipal();
 		tela.clicarItemPorXPath("/html/body/div[1]/div/nav/div/div[2]/ul/li[4]/a");
@@ -59,7 +59,7 @@ public class TesteLoginAthena extends Teste {
 
 	@Test
 	public void exemploTesteLoginInvalidoProfessor() throws ErroAplicacao {
-		this.setNomeTeste("exemploTesteLoginValidoAluno.png");
+		this.setNomeTeste("exemploTesteLoginInvalidoProfessor.png");
 		TelaPrincipal.abrirBrowser("http://localhost:8080/athena/");
 		TelaPrincipal tela = new TelaPrincipal();
 		tela.clicarItemPorXPath("/html/body/div[1]/div/nav/div/div[2]/ul/li[4]/a");
